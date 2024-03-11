@@ -35,7 +35,7 @@ Variables are a feature of C# that allow programmers to store data in the comput
 - A value is *returned* whenever it is the result of a statement (a section of code)
 	- Return values replace the statement that produced them
 - Everything written in a line after a `//` statement will be considered a comment. Comments will not affect code in any way.
-	- Block comments can be written between `/*` and `*/`. These comments can
+	- Block comments can be written between `/*` and `*/`. These comments can be used to describe or document code without impacting any logic you write.
 
 ```csharp
 // This is a comment. it won't affect your code at all
