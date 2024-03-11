@@ -1,0 +1,4 @@
+- Methods aren't modifiable outside of the class they were created in
+- If you don't have access to the class, you can create an extension method
+- This creates methods to add logic to any other type (which can be in a library or framework)
+- Extension methods can be created for interfaces, allowing for shared logic to be called

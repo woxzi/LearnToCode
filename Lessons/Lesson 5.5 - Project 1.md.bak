@@ -1,0 +1,53 @@
+---
+tags:
+  - Project
+  - Lesson
+---
+- teach about overloading the `.ToString()` method
+- Teach about escaped characters
+	- `\n`
+	- `\t`
+- Playlist management app
+### Main Menu
+
+
+Displays a list of playlists, along with some id numbers the user can use to select them. Allow the user to enter a number and select a playlist with the corresponding id. Once selected, display the playlist menu.
+
+Additionally, display a list of commands to available to the user:
+
+ - `exit`
+			- Exits the app
+		- `addplaylist`
+			- Displays a menu to create a new playlist and prompts the user for information to create it
+		- `playlists`
+			- Display the playlist overview menu 
+
+### Playlist Menu
+
+Displays a list of songs, along with some id numbers the user can use to select them. Allow the user to enter a number and select a song with the corresponding id. Once selected, display the song menu.
+
+Available commands:
+- `delete`
+	- Deletes the playlist
+- `add song` 
+	- Adds a song to the playlist
+
+
+### Model Structure
+
+- Playlists
+	- Can have as many songs as you'd like
+	- Can print out a list of songs in the playlist
+	- Can print out the total duration of the playlist (rounded to the nearest minute) 
+	
+- Songs have the below attributes
+	- Title
+	- Artist
+	- Album
+	- Duration (In Seconds)
+
+Clicking the 'C#' icon on the top right of the box below will copy all of the code in the box to your clipboard.
+
+```C#
+// This is some code that will need to be copied to begin the project
+```

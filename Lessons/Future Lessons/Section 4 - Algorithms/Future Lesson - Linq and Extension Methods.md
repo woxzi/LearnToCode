@@ -1,0 +1,3 @@
+- we need to cover this after [[Future Lesson - Functional Programming & Reflection]]
+- linq
+- [[Extension Methods]]

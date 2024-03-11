@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"Lessons/Future Lessons\"  ",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"Lessons/Future Lessons\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "tag:#Checkpoint  ",
+      "color": {
+        "a": 1,
+        "rgb": 14521132
+      }
+    },
+    {
+      "query": "tag:#Project  ",
+      "color": {
+        "a": 1,
+        "rgb": 5085674
+      }
+    },
+    {
+      "query": "tag:#Lesson  ",
+      "color": {
+        "a": 1,
+        "rgb": 9657558
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.00709342560554,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.498269896193772,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7478537827650164,
+  "close": false
+}

@@ -1,0 +1,4 @@
+- Maybe some SOLID
+- Composition vs Inheritance
+- Loose Coupling
+- DRY
