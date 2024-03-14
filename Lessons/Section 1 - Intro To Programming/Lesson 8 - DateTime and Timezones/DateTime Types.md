@@ -1,3 +1,5 @@
 ---
 aliases:
+  - DateTime
+  - DateOnly
 ---
