@@ -1,2 +1,0 @@
-- Explain what version control is for and why its useful
-- Write a tutorial on how to create a repo on github
