@@ -2,7 +2,7 @@
 aliases:
   - list
 ---
-Lists are built-in [[Reference Types]] that allow for storage of multiple variables of a specified type. These lists are functionally similar to [[Arrays]], but they have a mutable length. This means that you do not have to specify a length like with an array, and can continuously insert elements into the list without hitting any maximum.
+Lists are built-in [[How Variables Are Stored Internally|Reference Types]] that allow for storage of multiple variables of a specified type. These lists are functionally similar to [[Arrays]], but they have a mutable length. This means that you do not have to specify a length like with an array, and can continuously insert elements into the list without hitting any maximum.
 
 ### Basic Usage
 

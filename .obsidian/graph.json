@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Lessons/Future Lessons\"  ",
@@ -32,7 +32,28 @@
       "query": "tag:#Lesson  ",
       "color": {
         "a": 1,
-        "rgb": 9657558
+        "rgb": 14048407
+      }
+    },
+    {
+      "query": "path:\"Lessons/Section 0 - Getting Started\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "path:\"Lessons/Section 1 - Intro To Programming\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11230422
+      }
+    },
+    {
+      "query": "path:\"Lessons/Section 2 - Structuring Code\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
       }
     }
   ],
@@ -46,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7478537827650164,
-  "close": false
+  "scale": 0.7478537827650161,
+  "close": true
 }

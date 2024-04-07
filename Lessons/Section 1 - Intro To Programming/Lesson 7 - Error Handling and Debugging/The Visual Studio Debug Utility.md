@@ -12,13 +12,13 @@ Visual studio has some built-in utilities for debugging your code whenever you r
 To create a breakpoint, over over the gray bar to the left of the line you want to add a breakpoint to. A gray circle will appear under your cursor. Click this circle to create a breakpoint on the line that's next to it.
 
 Hovering the gray bar creates a circle you should click to make a new breakpoint:
-![[Images/Lesson 7/Screenshot 1.png|500]]
+![[Images/Section 1/Lesson 7/Screenshot 1.png|500]]
 
 Adding a breakpoint to the line will highlight the line in red like this:
-![[Images/Lesson 7/Screenshot 2.png|500]]
+![[Images/Section 1/Lesson 7/Screenshot 2.png|500]]
 
 The arrow and yellow highlight will indicate that execution has been paused on this line. We can now inspect the state of the program before this line has been executed, and step around to investigate what nearby lines do.
-![[Images/Lesson 7/Screenshot 3.png|500]]
+![[Images/Section 1/Lesson 7/Screenshot 3.png|500]]
 
 ## Navigating Through the Program
 
@@ -34,7 +34,7 @@ Once you begin debugging, you should see the below buttons appear in the toolbar
 ## Inspecting Data
 
 At the bottom of your screen, there should be a tab labeled 'Watch', that looks like this:
-![[Images/Lesson 7/Screenshot 4.png|600]]
+![[Images/Section 1/Lesson 7/Screenshot 4.png|600]]
 
 Click the line that says *Add item to watch*. Doing this allows you to write an expression, and display the resulting value in the 'Value' column on the right. This value will update whenever you navigate to different lines in your code, showing a display of important values that you care about.
 

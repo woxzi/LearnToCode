@@ -36,19 +36,19 @@ All of the code that you have been writing up to this point is code that has bee
 
 Let's try creating a new file and writing some code to be used in our original program file. First, navigate to the Solution Explorer in your Visual Studio.
 
-![[Images/Lesson 5/Screenshot 1.png|500]]
+![[Images/Section 1/Lesson 5/Screenshot 1.png|500]]
 
 The Solution Explorer view will look something like the above picture. Next, right-click on your project to open the context menu for that project.
 
-![[Images/Lesson 5/Screenshot 2.png|300]] 
+![[Images/Section 1/Lesson 5/Screenshot 2.png|300]] 
 
 Select Add > New Item...
 
-![[Images/Lesson 5/Screenshot 3.png|300]]
+![[Images/Section 1/Lesson 5/Screenshot 3.png|300]]
 
 A dialog window should pop up, providing you with options to create a new file in your project. Select Class (C# Items), and provide a name for your [[Classes and Objects|class]] in the bar on the bottom. I'll leave mine as the default `Class1.cs` value.
 
-![[Images/Lesson 5/Screenshot 4.png]]
+![[Images/Section 1/Lesson 5/Screenshot 4.png]]
 You should now have multiple classes available to you in the solution explorer view. Let's try writing a [[Methods|method]] in the new file, and calling its logic from the original `Program.cs` file.
 
 To do this, let's put the following method inside of the new class we created.

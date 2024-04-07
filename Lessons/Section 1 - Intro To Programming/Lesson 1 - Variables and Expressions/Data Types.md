@@ -3,6 +3,7 @@ aliases:
   - type
   - types
   - data type
+  - primitive types
 ---
 [Click here](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types) for a full list of Primitive [Variable](Variables.md) Types in C#!
 
