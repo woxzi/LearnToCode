@@ -42,7 +42,7 @@ class Point2D {
 
 When running the above code, the variables will reserve memory in the heap in a way vaguely like this:
 
-![[Memory Allocation Of Objects|1000|center]]
+![[L2.1 Memory Allocation Of Objects|1000|center]]
 
 Each variable will receive its own reserved block of memory to store data, which can be of any size. These memory blocks can allocated anywhere in memory that the operating system decides, so there isn't any specific structure or location to how these blocks are placed in memory. Instead, each block has an assigned address, which is an integer value that is used to describe where in memory the beginning of the reserved memory block is located. 
 
@@ -97,24 +97,14 @@ class Point2D {
 
 <center>When initializing var1, it would be stored using a pointer, like in the diagram below. Note that the values are note directly stored in the variable, and are instead stored in a separate location in memory.</center>
 
-![[Step 1|150|center]]
+![[L2.1 Shared Resources Step 1|150|center]]
 
 <center>Now let's assign var2 to the value of var1. Because var1 stores a pointer to the block with the object's value instead of the object itself, the <i>pointer</i> will be copied to var2. This means that the object will be shared between both variables.</center>
 
-![[Step 2|300|center]]
+![[L2.1 Shared Resources Step 2|300|center]]
 
 <center>Let's change the x value stored in var 2. To do this, we follow the pointer in var 2 and change the stored value.</center>
 
-![[Step 3|300|center]]
+![[L2.1 Shared Resources Step 3|300|center]]
 
 Changing the stored value will update the value at the destination of the pointer. Because this is pointed to by both variables, the `x` value in var 1 and var 2 reference the same thing. When we change var 2's value, var 1 will be changed as well as long as their pointers reference the same object.
-
-#### Pass By Value vs Pass By Reference
-
-
-
-## Pointers
-
-- Pass-by-Reference and Pass-by-Value
-	- out params
-	- ref params
