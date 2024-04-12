@@ -5,8 +5,6 @@ aliases:
   - reference types
   - value type
   - value types
-  - pass by reference
-  - pass by value
 ---
 ## Storing Values In Memory
 
