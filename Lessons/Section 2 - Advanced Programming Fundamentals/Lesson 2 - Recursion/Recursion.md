@@ -26,7 +26,7 @@ $$\begin{flalign}\sum_{k=0}^{n}k\:,\quad n\geq0&&\end{flalign}$$
 To implement this logic as a method, normally we'd write a loop that might look something like this:
 
 ```cs
-int SumOfAllNumberLessThan(int n) {
+int SumOfAllNumbersLessThan(int n) {
     int sum = 0;
     for (int i = 0; i <= n; i++) {
         sum += i;
@@ -37,16 +37,48 @@ int SumOfAllNumberLessThan(int n) {
 
 This simply loops over all numbers starting from zero up to n (inclusive), and adds them to determine a sum. Finally, the sum is returned as the result value.
 
-If we wanted to implement this recursively, we could try breaking down the problem into some recursive components. Doing so results in
+If we wanted to implement this recursively, we could try breaking down the problem into some recursive components. 
+
+$$
+f(n) = \begin{cases} 
+      n \gt 0: & 0\ +\ 1\ + \ ...\ +\ n \\
+      n = 0: & 0 \\
+   \end{cases}
+$$
+By identifying the lowest possible value of n as a case where we know the value is 0, we find that this is a suitable base case for a recursive function. Next we need to identify a way to take each complex case and simplify it towards our base case.
+
+$$
+f(n) = \begin{cases} 
+      n \gt 0: & 0\ +\ 1\ + \ ...\ +\ (n-1)\ +\ n\\
+      n = 0: & 0 \\
+   \end{cases}
+$$
+
+By identifying a pattern of $f(n) = f(n-1)+n$, we find that each case can be simplified to just use a smaller case when finding the sum of each value.
+
+$$
+f(n) = \begin{cases} 
+      n \gt 0: & f(n-1)\ +\ n \\
+      n = 0: & 0 \\
+   \end{cases}
+$$
+
+When written as code, we can describe the method as a recursive function. This function will call itself, like so:
+
+```cs
+int SumOfAllNumbersLessThan(int n) {
+    if (n == 0) {
+        return 0;
+    } else {
+        return n + SumOfAllNumbersLessThan(n - 1);
+    }
+}
+```
+
+This can even be written in a single line using a ternary statement:
 
 ```cs
 int SumOfAllNumberLessThan(int n) {
-    if (n < 0) {
-        throw new NotSupportedException();
-    } else if (n == 0) {
-        return 0;
-    } else {
-        return n + SumOfAllNumberLessThan(n - 1);
-    }
+    return n == 0 ? 0 : n + SumOfAllNumbersLessThan(n - 1);
 }
 ```
