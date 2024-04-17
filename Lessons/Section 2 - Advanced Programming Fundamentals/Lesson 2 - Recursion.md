@@ -2,9 +2,7 @@
 tags:
   - Lesson
 ---
-How to perform recursion using [[Methods]]
-
-
+Before attempting the exercises in this lesson, you will need to understand the basics of how to implement [[Recursion|recursive algorithms]] when solving complex problems.
 ## Exercises
 
 1. Write a method that takes an integer parameter 'n', and returns the n<sup>th</sup> number in the [Fibonacci sequence.](https://en.wikipedia.org/wiki/Fibonacci_sequence) Try writing two implementations of this, one using no loops of any kind, and the other using loops.
@@ -24,6 +22,7 @@ How to perform recursion using [[Methods]]
 	- The method should accept an integer parameter 'disks', which describes the number of disks used to play the game.
 	- The method should print each move used to arrive at the solution, in the below format:
 		- `Move #<move number here>: <starting peg> -> <ending peg>`
+		- When printing a peg, use the value 'L', 'M', or 'R' to represent which peg is being described. These represent the left, middle, and right peg respectively.
 	- Each move printed must be valid under the rules of the game *Tower of Hanoi*. The rules for this game can be found below.
 	- The method must complete the game in the lowest number of moves possible. The optimal number of moves is 2<sup>n</sup> - 1, where n is the number of disks used in the game.
 
