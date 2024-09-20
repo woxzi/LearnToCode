@@ -13,8 +13,8 @@ String literals are denoted using a double quote character (`"`). These are not 
 ```csharp
 string someVariable = "potato";
 
-var x = "c";
-var y = 'c';
+var x = "c"; // this is a string
+var y = 'c'; // this is a char
 ```
 
 #### Operators
@@ -25,8 +25,8 @@ var y = 'c';
 	- Equivalent to `x = x + y`
 
 ```csharp
-string a = 'potato';
-string b = 'salad';
+string a = "potato";
+string b = "salad";
 
 Console.WriteLine(a + b);
 //> potatosalad
