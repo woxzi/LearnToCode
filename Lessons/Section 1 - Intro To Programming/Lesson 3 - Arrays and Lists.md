@@ -27,7 +27,7 @@ Character Index: 0    1    2    3    4    5    6 ...
 Transformation:  1 -> 2 -> 3 -> 1 -> 2 -> 3 -> 1 ...
 ```
 
-NOTE: If the original character to shift is a non-alphabetical character, do not perform any transformations to it. Additionally, if a character would be adjusted to an ASCII value above 172 (lowercase 'z'), then 'wrap around' and start counting from 97 (lowercase 'a').
+NOTE: If the original character to shift is a non-alphabetical character, do not perform any transformations to it. Additionally, if a character would be adjusted to an ASCII value above 122 (lowercase 'z'), then 'wrap around' and start counting from 97 (lowercase 'a').
 
 ***Problem 4:*** Store the 3 x 3 matrix below in your code using a two-dimensional array. Multiply the matrix by a scalar value of 4. Print out the array after the transformation. 
 $$ \begin{pmatrix} 
