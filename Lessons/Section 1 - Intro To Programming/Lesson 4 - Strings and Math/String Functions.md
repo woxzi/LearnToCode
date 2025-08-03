@@ -12,12 +12,12 @@ $"beginning of the string {yourVariable} end of the string"
 ```
 
 ### Common String Functions
-| Function | Description | Example Usage | Example Result |
-| ---- | ---- | ---- | ---- |
-| `.ToUpper()` | Converts all alphabetic characters to their uppercase versions | `"pOtAto".ToUpper()` | `POTATO` |
-| `.ToLower()` | Converts all alphabetic characters to their lowercase versions | `"pOtAto".ToLower()` | `potato` |
-| `.Length` | Returns the length of a string | `"potato".Length` | `6` |
-| `.ToCharArray()` | Returns an array containing each character in the string | `"cat".ToCharArray()` | `[ 'c', 'a', 't' ]` |
-| `.Substring(start, length)` | Returns the first *n* characters in the string starting from the position specified in `start`, where n is the specified `length`. | `"potato".Substring(2,3)` | `tat` |
-| `.Split(string)` | Returns an array of strings, containing each substring split by the provided value | `"potato".Split("t")` | `["po", "a", "o"]` |
-| `string.Join(string, string[])` | Returns a string that combines each | `string[] in = { "a", "b", "c" };`<br>`string.Join("+", in)` | `a+b+c` |
+| Function                        | Description                                                                                                                        | Example Usage                                                | Example Result      |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------- |
+| `.ToUpper()`                    | Converts all alphabetic characters to their uppercase versions                                                                     | `"pOtAto".ToUpper()`                                         | `POTATO`            |
+| `.ToLower()`                    | Converts all alphabetic characters to their lowercase versions                                                                     | `"pOtAto".ToLower()`                                         | `potato`            |
+| `.Length`                       | Returns the length of a string                                                                                                     | `"potato".Length`                                            | `6`                 |
+| `.ToCharArray()`                | Returns an array containing each character in the string                                                                           | `"cat".ToCharArray()`                                        | `[ 'c', 'a', 't' ]` |
+| `.Substring(start, length)`     | Returns the first *n* characters in the string starting from the position specified in `start`, where n is the specified `length`. | `"potato".Substring(2,3)`                                    | `tat`               |
+| `.Split(string)`                | Returns an array of strings, containing each substring split by the provided value                                                 | `"potato".Split("t")`                                        | `["po", "a", "o"]`  |
+| `string.Join(string, string[])` | Returns a string that combines each                                                                                                | `string[] in = { "a", "b", "c" };`<br>`string.Join("+", in)` | `a+b+c`             |
